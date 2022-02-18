@@ -1,6 +1,39 @@
 <html>
-
+<body>
+  <nav>
+    <li><a href="index.html"> Home </a></li>
+    <li><a href="page2.html"> Notebook </a></li>
+    <li><a href="https://www.powayusd.com/en-US/Schools/HS/WVHS/Calendars/Schedules/Bell-Schedule"> Learning Schedule </a></li>
+  </nav>
 <center>
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRx35zA3njRDYEGL1Xjc1NSxSncAkdFTDCY2da1bO389jfMATHebUti7WIcFYqYdC8KKExbThwuhSGC/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </center>
+</body>
 </html>
+<style>
+nav{
+  list-style-type: none;
+  position: fixed;
+  background-color: black;
+  top: 0;
+  width: 100%;
+  left: 0;
+    
+}
+li{
+  font-size: 30px;
+  display:inline;
+  padding: 10px;
+  float: left;
+  border: solid;
+  border-color:#F4D35E;
+    
+}
+li:hover{
+  background-color: #987284;
+}
+a{
+  text-decoration: none;
+  color: #F4D35E
+}
+</style>
